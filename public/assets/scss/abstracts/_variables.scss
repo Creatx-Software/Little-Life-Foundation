@@ -1,0 +1,40 @@
+/* ==== 
+ --------- (1.02) variables start ---------
+ ==== */
+
+:root {
+  // font family
+  --nunito: "Nunito", sans-serif;
+  --nunito-sans: "Nunito Sans", sans-serif;
+  --caveat: "Caveat", cursive;
+  --outfit: "Outfit", sans-serif;
+
+  // template default
+  --template-font: var(--nunito);
+  --template-bg: #ffffff;
+  --template-color: #667471;
+
+  // colors
+  --white: #ffffff;
+  --black: #000000;
+  --primary-color: #005fa3;
+  --secondary-color: #00355f;
+  --tertiary-color: #0a74c9;
+  --quaternary-color: #1b82d1;
+  --quinary-color: #031a2e;
+  --septenary-color: #0a2238;
+  --senary-color: #d9d9d9;
+  --hover-color: #003b6e;
+
+  // transitions
+  --transition: all 0.5s ease;
+
+  // box shadow
+  --shadow: 0px 10px 25px 0px rgba(37, 42, 52, 0.08);
+  --shadow-secondary: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+  --shadow-tertiary: 0px 4px 8px 0px rgba(0, 0, 0, 0.07);
+}
+
+/* ==== 
+ --------- (1.02) variables end ---------
+ ==== */
