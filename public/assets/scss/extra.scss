@@ -103,6 +103,14 @@
       -webkit-transition-delay: 600ms;
       transition-delay: 600ms;
     }
+    p {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+      transform: translateX(0);
+      -webkit-transition-delay: 1200ms;
+      transition-delay: 1200ms;
+    }
     .banner__content-cta {
       opacity: 1;
       -webkit-transform: translateX(0);

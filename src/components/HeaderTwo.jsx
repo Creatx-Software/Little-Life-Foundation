@@ -149,7 +149,7 @@ const HeaderTwo = () => {
                         </div>
                         <div className='contact-content'>
                           <p>Call Us Now</p>
-                          <a href='tel:01-793-7938'>(+01)-793-7938 </a>
+                          <a href='tel:01-793-7938'>+94 70 533 2446 </a>
                         </div>
                       </div>
                       <div className='search-box'>

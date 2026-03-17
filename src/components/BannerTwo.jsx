@@ -34,10 +34,7 @@ const BannerTwo = () => {
                       <span>Better</span> today
                     </h1>
                     <p>
-                      Join our monthly giving program to provide consistent
-                      support to our initiatives. Regular contributions, no
-                      matter the size, help us plan and sustain long-term
-                      projects.
+                      We are a Sri Lanka-based charity dedicated to transforming lives through compassionate action, community programs, and unwavering hope.
                     </p>
                     <div className='banner__content-cta cta'>
                       <Link
@@ -46,7 +43,7 @@ const BannerTwo = () => {
                         title='about us'
                         className='btn--tertiary'
                       >
-                        Discover More <i className='fa-solid fa-arrow-right' />
+                        Become A Volunteer <i className='fa-solid fa-arrow-right' />
                       </Link>
                       <Link
                         href='/index-two'
@@ -54,7 +51,7 @@ const BannerTwo = () => {
                         title='contact us'
                         className='btn--primary'
                       >
-                        Get A Quote <i className='fa-solid fa-arrow-right' />
+                        View Programs <i className='fa-solid fa-arrow-right' />
                       </Link>
                     </div>
                   </div>
@@ -102,14 +99,11 @@ const BannerTwo = () => {
                       Start donating poor people
                     </span>
                     <h1>
-                      Helping Each Other Make
-                      <span>Better</span> today
+                      Saving Lives
+                      <span>Spreading Hope</span>
                     </h1>
                     <p>
-                      Join our monthly giving program to provide consistent
-                      support to our initiatives. Regular contributions, no
-                      matter the size, help us plan and sustain long-term
-                      projects.
+                      We are a Sri Lanka-based charity dedicated to transforming lives through compassionate action, community programs, and unwavering hope.
                     </p>
                     <div className='banner__content-cta cta'>
                       <Link
@@ -118,7 +112,7 @@ const BannerTwo = () => {
                         title='about us'
                         className='btn--tertiary'
                       >
-                        Discover More <i className='fa-solid fa-arrow-right' />
+                        Become A Volunteer <i className='fa-solid fa-arrow-right' />
                       </Link>
                       <Link
                         href='/index-two'
@@ -126,7 +120,7 @@ const BannerTwo = () => {
                         title='contact us'
                         className='btn--primary'
                       >
-                        Get A Quote <i className='fa-solid fa-arrow-right' />
+                        View Programs <i className='fa-solid fa-arrow-right' />
                       </Link>
                     </div>
                   </div>
