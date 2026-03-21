@@ -15,7 +15,7 @@ const HelpTwo = () => {
                   data-aos='fade-up'
                   data-aos-duration={1000}
                 >
-                  <img src='assets/images/help/three.png' alt='Image_inner' />
+                  <img src='assets/images/help/three.jpeg' alt='Image_inner' />
                 </div>
                 <div
                   className='thumb-sm'
@@ -43,14 +43,14 @@ const HelpTwo = () => {
                         {({ isVisible }) =>
                           isVisible && (
                             <span className='odometer'>
-                              <CountUp delay={0} start={0} end={250} />
+                              <CountUp delay={0} start={0} end={5000} style={{ fontSize: "0.9em" }} />
                               <span className='prefix'>+</span>
                             </span>
                           )
                         }
                       </TrackVisibility>
                     </h2>
-                    <p>Services we Provide</p>
+                    <p>Lives Touched</p>
                   </div>
                 </div>
               </div>
@@ -105,11 +105,11 @@ const HelpTwo = () => {
                     <ul>
                       <li>
                         <i className='fa-solid fa-circle-check' /> Helped fund
-                        3,265 Project powerfull
+                        6 Programs powerfull
                       </li>
                       <li>
-                        <i className='fa-solid fa-circle-check' /> We give child
-                        a gift of a education
+                        <i className='fa-solid fa-circle-check' /> 50+
+                        Active Volunteers
                       </li>
                     </ul>
                   </div>
@@ -124,9 +124,9 @@ const HelpTwo = () => {
                       <i className='icon-star' />
                     </div>
                     <div className='help-card-content'>
-                      <h4>35,734</h4>
-                      <h6>Helped Fund</h6>
-                      <p>Quisque dignissim enim diam</p>
+                      <h4>15+</h4>
+                      <h6>Districts Covered</h6>
+                      <p>Bringing hope to 15+ districts</p>
                     </div>
                   </div>
                 </div>

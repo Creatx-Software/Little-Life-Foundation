@@ -106,12 +106,11 @@ const CauseSliderOne = () => {
                           <div className='content'>
                             <h6>
                               <Link href='/cause-details'>
-                                Children we work with
+                                Child Healthcare
                               </Link>
                             </h6>
                             <p>
-                              Lorem ipsum dolor sit amet, consete sadipscing
-                              elitr, sed diam nonum
+                              Providing essential medical care and health screenings to underprivileged children across rural Sri Lanka.
                             </p>
                           </div>
                           <div className='cause__slider-cta'>
@@ -153,18 +152,17 @@ const CauseSliderOne = () => {
                               />
                             </Link>
                             <div className='tag'>
-                              <Link href='/our-causes'>Food</Link>
+                              <Link href='/our-causes'>Education</Link>
                             </div>
                           </div>
                           <div className='content'>
                             <h6>
                               <Link href='/cause-details'>
-                                Help For Education
+                                Education for All
                               </Link>
                             </h6>
                             <p>
-                              Lorem ipsum dolor sit amet, consete sadipscing
-                              elitr, sed diam nonum
+                              Empowering students through education with scholarships, supplies, and academic support.
                             </p>
                           </div>
                           <div className='cause__slider-cta'>
@@ -206,16 +204,15 @@ const CauseSliderOne = () => {
                               />
                             </Link>
                             <div className='tag'>
-                              <Link href='/our-causes'>Health</Link>
+                              <Link href='/our-causes'>Infrastructure</Link>
                             </div>
                           </div>
                           <div className='content'>
                             <h6>
-                              <Link href='/cause-details'>Help For Food</Link>
+                              <Link href='/cause-details'>Clean Water Project</Link>
                             </h6>
                             <p>
-                              Lorem ipsum dolor sit amet, consete sadipscing
-                              elitr, sed diam nonum
+                              Providing clean drinking water through community wells and purification systems.
                             </p>
                           </div>
                           <div className='cause__slider-cta'>
@@ -257,18 +254,17 @@ const CauseSliderOne = () => {
                               />
                             </Link>
                             <div className='tag'>
-                              <Link href='/our-causes'>Food</Link>
+                              <Link href='/our-causes'>Nutrition</Link>
                             </div>
                           </div>
                           <div className='content'>
                             <h6>
                               <Link href='/cause-details'>
-                                Give health support
+                                Nutrition & Feeding
                               </Link>
                             </h6>
                             <p>
-                              Lorem ipsum dolor sit amet, consete sadipscing
-                              elitr, sed diam nonum
+                              Providing daily nutritious meals to ensure every child grows healthy and strong.
                             </p>
                           </div>
                           <div className='cause__slider-cta'>
@@ -305,23 +301,22 @@ const CauseSliderOne = () => {
                           <div className='thumb'>
                             <Link href='/cause-details'>
                               <img
-                                src='assets/images/cause/one.png'
+                                src='assets/images/cause/five.png'
                                 alt='Image_inner'
                               />
                             </Link>
                             <div className='tag'>
-                              <Link href='/our-causes'>Health</Link>
+                              <Link href='/our-causes'>Empowerment</Link>
                             </div>
                           </div>
                           <div className='content'>
                             <h6>
                               <Link href='/cause-details'>
-                                Children we work with
+                                Women Empowerment
                               </Link>
                             </h6>
                             <p>
-                              Lorem ipsum dolor sit amet, consete sadipscing
-                              elitr, sed diam nonum
+                              Skill development and micro-finance programs helping women become financially independent.
                             </p>
                           </div>
                           <div className='cause__slider-cta'>
@@ -358,133 +353,28 @@ const CauseSliderOne = () => {
                           <div className='thumb'>
                             <Link href='/cause-details'>
                               <img
-                                src='assets/images/cause/two.png'
+                                src='assets/images/cause/six.png'
                                 alt='Image_inner'
                               />
                             </Link>
                             <div className='tag'>
-                              <Link href='/our-causes'>Food</Link>
+                              <Link href='/our-causes'>Relief</Link>
                             </div>
                           </div>
                           <div className='content'>
                             <h6>
                               <Link href='/cause-details'>
-                                Help For Education
+                                Emergency Relief
                               </Link>
                             </h6>
                             <p>
-                              Lorem ipsum dolor sit amet, consete sadipscing
-                              elitr, sed diam nonum
+                              Rapid response assistance during natural disasters and emergencies affecting vulnerable communities.
                             </p>
                           </div>
                           <div className='cause__slider-cta'>
                             <div className='cause__progress progress-bar-single'>
                               {/* ProgressBar */}
                               <ProgressBar percent={90} />
-                              {/* ProgressBar */}
-                              <div className='cause-progress__goal'>
-                                <p>
-                                  Raised: <span className='raised'>$8500</span>
-                                </p>
-                                <p>
-                                  Goal: <span className='goal'>$1,0000</span>
-                                </p>
-                              </div>
-                            </div>
-                            <div className='cause__cta'>
-                              <Link
-                                href='/donate-us'
-                                aria-label='donate now'
-                                title='donate now'
-                                className='btn--secondary'
-                              >
-                                Donate Now
-                              </Link>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className='swiper-slide'>
-                      <div className='cause__slider-inner'>
-                        <div className='cause__slider-single'>
-                          <div className='thumb'>
-                            <Link href='/cause-details'>
-                              <img
-                                src='assets/images/cause/three.png'
-                                alt='Image_inner'
-                              />
-                            </Link>
-                            <div className='tag'>
-                              <Link href='/our-causes'>Health</Link>
-                            </div>
-                          </div>
-                          <div className='content'>
-                            <h6>
-                              <Link href='/cause-details'>Help For Food</Link>
-                            </h6>
-                            <p>
-                              Lorem ipsum dolor sit amet, consete sadipscing
-                              elitr, sed diam nonum
-                            </p>
-                          </div>
-                          <div className='cause__slider-cta'>
-                            <div className='cause__progress progress-bar-single'>
-                              {/* ProgressBar */}
-                              <ProgressBar percent={75} />
-                              {/* ProgressBar */}
-                              <div className='cause-progress__goal'>
-                                <p>
-                                  Raised: <span className='raised'>$8500</span>
-                                </p>
-                                <p>
-                                  Goal: <span className='goal'>$1,0000</span>
-                                </p>
-                              </div>
-                            </div>
-                            <div className='cause__cta'>
-                              <Link
-                                href='/donate-us'
-                                aria-label='donate now'
-                                title='donate now'
-                                className='btn--secondary'
-                              >
-                                Donate Now
-                              </Link>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className='swiper-slide'>
-                      <div className='cause__slider-inner'>
-                        <div className='cause__slider-single'>
-                          <div className='thumb'>
-                            <Link href='/cause-details'>
-                              <img
-                                src='assets/images/cause/four.png'
-                                alt='Image_inner'
-                              />
-                            </Link>
-                            <div className='tag'>
-                              <Link href='/our-causes'>Food</Link>
-                            </div>
-                          </div>
-                          <div className='content'>
-                            <h6>
-                              <Link href='/cause-details'>
-                                Give health support
-                              </Link>
-                            </h6>
-                            <p>
-                              Lorem ipsum dolor sit amet, consete sadipscing
-                              elitr, sed diam nonum
-                            </p>
-                          </div>
-                          <div className='cause__slider-cta'>
-                            <div className='cause__progress progress-bar-single'>
-                              {/* ProgressBar */}
-                              <ProgressBar percent={65} />
                               {/* ProgressBar */}
                               <div className='cause-progress__goal'>
                                 <p>

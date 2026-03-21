@@ -26,7 +26,7 @@ const CtaSectionTwo = () => {
                     title='about us'
                     className='btn--tertiary'
                   >
-                    Discover More <i className='fa-solid fa-arrow-right' />
+                    Become A Volunteer <i className='fa-solid fa-arrow-right' />
                   </Link>
                   <Link
                     href='/contact-us'
@@ -34,7 +34,7 @@ const CtaSectionTwo = () => {
                     title='contact us'
                     className='btn--primary'
                   >
-                    Get A Quote <i className='fa-solid fa-arrow-right' />
+                    Donate Now <i className='fa-solid fa-arrow-right' />
                   </Link>
                 </div>
               </div>
@@ -44,7 +44,7 @@ const CtaSectionTwo = () => {
       </div>
       <div className='cta-bg'>
         <img
-          src='assets/images/cta/cta-bg.png'
+          src='assets/images/cta/cta-bg.jpg'
           alt='Image_inner'
           className='parallax-image'
         />

@@ -36,7 +36,7 @@ const FaqOne = () => {
                         aria-expanded='true'
                         aria-controls='collapseOne'
                       >
-                        What kind of recipes can I find on your website?
+                        How do you identify the communities in Sri Lanka that need the most help?
                       </button>
                     </h6>
                     <div
@@ -47,10 +47,7 @@ const FaqOne = () => {
                     >
                       <div className='accordion-body'>
                         <p>
-                          It is a long established fact that a reader will be
-                          distracted by the readable the a content of a page
-                          when looking at its layout. Many desktop publishing
-                          packages and web page editors.
+                          We work closely with local leaders and grassroots volunteers across 15+ districts to identify families and students facing the greatest challenges. This on-the-ground approach ensures our resources—from clean water to education—reach those truly in need.
                         </p>
                       </div>
                     </div>
@@ -65,7 +62,7 @@ const FaqOne = () => {
                         aria-expanded='false'
                         aria-controls='collapseTwo'
                       >
-                        Are the recipes suitable for beginners?
+                        How much of my donation goes directly to your community programs?
                       </button>
                     </h6>
                     <div
@@ -76,10 +73,7 @@ const FaqOne = () => {
                     >
                       <div className='accordion-body'>
                         <p>
-                          It is a long established fact that a reader will be
-                          distracted by the readable the a content of a page
-                          when looking at its layout. Many desktop publishing
-                          packages and web page editors.
+                          We are committed to maximum impact and transparency. By working with a dedicated volunteer network and localized operations, we ensure the vast majority of every donation is funneled directly into our field projects and life-changing initiatives.
                         </p>
                       </div>
                     </div>
@@ -94,7 +88,7 @@ const FaqOne = () => {
                         aria-expanded='false'
                         aria-controls='collapseThree'
                       >
-                        Do you offer cooking tips and techniques?
+                        Can I choose to sponsor a specific project, like a water well or a scholarship?
                       </button>
                     </h6>
                     <div
@@ -105,10 +99,7 @@ const FaqOne = () => {
                     >
                       <div className='accordion-body'>
                         <p>
-                          It is a long established fact that a reader will be
-                          distracted by the readable the a content of a page
-                          when looking at its layout. Many desktop publishing
-                          packages and web page editors.
+                          Yes, we offer the option to "Sponsor a Project." You can choose to fund a specific water purification system, an annual student scholarship, or a meal program. We provide direct updates so you can see the specific impact of your contribution.
                         </p>
                       </div>
                     </div>
@@ -123,7 +114,7 @@ const FaqOne = () => {
                         aria-expanded='false'
                         aria-controls='collapseFour'
                       >
-                        How frequently do you update your recipe collection?
+                        Besides donating, how can I get involved in your mission?
                       </button>
                     </h6>
                     <div
@@ -134,10 +125,7 @@ const FaqOne = () => {
                     >
                       <div className='accordion-body'>
                         <p>
-                          It is a long established fact that a reader will be
-                          distracted by the readable the a content of a page
-                          when looking at its layout. Many desktop publishing
-                          packages and web page editors.
+                          Compassionate action takes many forms. You can join our network of volunteers to help distribute supplies, offer your expertise as a guest tutor, or help us raise awareness by sharing our stories of hope within your own community.
                         </p>
                       </div>
                     </div>

@@ -21,7 +21,7 @@ const TeamTwo = () => {
                 Start donating poor people
               </span>
               <h2 className='title-animation_inner'>
-                Meet Our Volunteer
+                Meet Our Amazing
                 <span>Team</span> members
               </h2>
             </div>
@@ -71,9 +71,9 @@ const TeamTwo = () => {
                 </div>
                 <div className='team__single-content'>
                   <h6>
-                    <Link href='/team-details'>Michel Fokluz</Link>
+                    <Link href='/team-details'>Kasun Perera</Link>
                   </h6>
-                  <p>Volunteer</p>
+                  <p>Healthcare Coordinator</p>
                 </div>
               </div>
             </div>
@@ -122,9 +122,9 @@ const TeamTwo = () => {
                 </div>
                 <div className='team__single-content'>
                   <h6>
-                    <Link href='/team-details'>Arian Drobloas</Link>
+                    <Link href='/team-details'>Amaya Fernando</Link>
                   </h6>
-                  <p>Volunteer</p>
+                  <p>Education Program Lead</p>
                 </div>
               </div>
             </div>
@@ -173,9 +173,9 @@ const TeamTwo = () => {
                 </div>
                 <div className='team__single-content'>
                   <h6>
-                    <Link href='/team-details'>Jara Klintof</Link>
+                    <Link href='/team-details'>Dilshan Jayawardena</Link>
                   </h6>
-                  <p>Volunteer</p>
+                  <p>Logistics Manager</p>
                 </div>
               </div>
             </div>
@@ -224,9 +224,9 @@ const TeamTwo = () => {
                 </div>
                 <div className='team__single-content'>
                   <h6>
-                    <Link href='/team-details'>Aiden Markram</Link>
+                    <Link href='/team-details'>Nethmi Silva</Link>
                   </h6>
-                  <p>Volunteer</p>
+                  <p>Community Outreach</p>
                 </div>
               </div>
             </div>

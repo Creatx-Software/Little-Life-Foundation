@@ -16,8 +16,9 @@ const AwardOne = () => {
                 Start donating poor people
               </span>
               <h2 className='title-animation_inner'>
-                Our Global Awards <span>Winning</span>
-                Photo Gallery
+                A Visual <span>Journey</span> of
+                <br />
+                Our Work
               </h2>
             </div>
           </div>
