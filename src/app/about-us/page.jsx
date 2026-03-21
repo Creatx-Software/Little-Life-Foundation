@@ -1,16 +1,10 @@
 import BreadcrumbOne from "@/components/BreadcrumbOne";
 import ContactOne from "@/components/ContactOne";
-import CtaSectionTwo from "@/components/CtaSectionTwo";
 import DifferenceTwo from "@/components/DifferenceTwo";
-import FaqOne from "@/components/FaqOne";
-import FooterOne from "@/components/FooterOne";
+import FooterTwo from "@/components/FooterTwo";
 import GalleryOne from "@/components/GalleryOne";
-import HeaderOne from "@/components/HeaderOne";
-import HelpOne from "@/components/HelpOne";
+import HeaderTwo from "@/components/HeaderTwo";
 import Preloader from "@/components/Preloader";
-import TeamTwo from "@/components/TeamTwo";
-import TestimonialOne from "@/components/TestimonialOne";
-import TopBarOne from "@/components/TopBarOne";
 import AOSWrap from "@/helper/AOSWrap";
 import CustomCursor from "@/helper/CustomCursor";
 
@@ -29,41 +23,20 @@ const page = () => {
         {/* CustomCursor  */}
         <CustomCursor />
 
-        {/* TopBarOne */}
-        <TopBarOne />
-
-        {/* HeaderOne */}
-        <HeaderOne />
+        {/* HeaderTwo */}
+        <HeaderTwo />
 
         {/* BreadcrumbOne */}
         <BreadcrumbOne title='About Us' />
 
-        {/* HelpOne */}
-        <HelpOne />
-
-        {/* CtaSectionTwo */}
-        <CtaSectionTwo />
-
-        {/* TeamTwo */}
-        <TeamTwo />
-
-        {/* FaqOne */}
-        <FaqOne />
-
-        {/* TestimonialOne */}
-        <TestimonialOne />
+        {/* DifferenceTwo */}
+        <DifferenceTwo />
 
         {/* ContactOne */}
         <ContactOne />
 
-        {/* DifferenceTwo */}
-        <DifferenceTwo />
-
-        {/* GalleryOne */}
-        <GalleryOne />
-
-        {/* FooterOne */}
-        <FooterOne />
+        {/* FooterTwo */}
+        <FooterTwo />
       </section>
     </AOSWrap>
   );

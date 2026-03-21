@@ -124,7 +124,7 @@ const HeaderTwo = () => {
                         <Link href='/' onClick={() => setActiveNavItem("home")}>Home</Link>
                       </li>
                       <li className={`navbar__item nav-fade ${activeNavItem === "about" ? "active" : ""}`}>
-                        <Link href='/index-two' onClick={() => setActiveNavItem("about")}>About Us</Link>
+                        <Link href='/about-us' onClick={() => setActiveNavItem("about")}>About Us</Link>
                       </li>
                       <li className={`navbar__item nav-fade ${activeNavItem === "programs" ? "active" : ""}`}>
                         <Link href='/index-two' onClick={() => setActiveNavItem("programs")}>Programs</Link>
@@ -133,7 +133,7 @@ const HeaderTwo = () => {
                         <Link href='/index-two' onClick={() => setActiveNavItem("events")}>Events</Link>
                       </li>
                       <li className={`navbar__item nav-fade ${activeNavItem === "volunteers" ? "active" : ""}`}>
-                        <Link href='/index-two' onClick={() => setActiveNavItem("volunteers")}>Volunteers</Link>
+                        <Link href='/our-team' onClick={() => setActiveNavItem("volunteers")}>Volunteers</Link>
                       </li>
                       <li className={`navbar__item nav-fade ${activeNavItem === "contact" ? "active" : ""}`}>
                         <Link href='/index-two' onClick={() => setActiveNavItem("contact")}>Contact Us</Link>

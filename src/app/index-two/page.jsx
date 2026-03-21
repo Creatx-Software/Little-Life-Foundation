@@ -1,6 +1,4 @@
-import AwardOne from "@/components/AwardOne";
 import BannerTwo from "@/components/BannerTwo";
-import BlogTwo from "@/components/BlogTwo";
 import CauseSliderOne from "@/components/CauseSliderOne";
 import CtaSectionTwo from "@/components/CtaSectionTwo";
 import FaqOne from "@/components/FaqOne";
@@ -45,9 +43,6 @@ const page = () => {
         {/* CtaSectionTwo */}
         <CtaSectionTwo />
 
-        {/* AwardOne */}
-        <AwardOne />
-
         {/* TeamTwo */}
         <TeamTwo />
 
@@ -59,9 +54,6 @@ const page = () => {
 
         {/* TestimonialTwo */}
         <TestimonialTwo />
-
-        {/* BlogTwo */}
-        <BlogTwo />
 
         {/* GalleryOne */}
         <GalleryOne />

@@ -12,7 +12,9 @@ const FooterTwo = () => {
                   <div className='col-12 col-sm-8 col-lg-5 col-xl-6'>
                     <div className='footer__content'>
                       <h3 className='title-animation_inner'>
-                        children need your help start <span>donating</span>{" "}
+                        Ready to Make a Difference?
+                        <br />
+                        Start <span>donating</span>{" "}
                         today
                       </h3>
                     </div>
@@ -25,7 +27,7 @@ const FooterTwo = () => {
                       data-aos-delay={300}
                     >
                       <Link href='/contact-us'>
-                        for Any Inquiry <span>@WOWtheme.co</span>
+                        for Any Inquiry <span style={{ fontSize: '0.85em' }}>info@littlelifefoundation.org</span>
                       </Link>
                     </div>
                   </div>
@@ -100,31 +102,25 @@ const FooterTwo = () => {
                     <li>
                       <Link href='/our-causes'>
                         <i className='fa-solid fa-angles-right' />
-                        Our Causes
+                        Our Programs
                       </Link>
                     </li>
                     <li>
                       <Link href='/our-team'>
                         <i className='fa-solid fa-angles-right' />
-                        Our Teams
+                        Upcoming Events
                       </Link>
                     </li>
                     <li>
                       <Link href='/blog-list'>
                         <i className='fa-solid fa-angles-right' />
-                        Our Blog
+                        Volunteer
                       </Link>
                     </li>
                     <li>
                       <Link href='/faq'>
                         <i className='fa-solid fa-angles-right' />
-                        FAQ
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/contact-us'>
-                        <i className='fa-solid fa-angles-right' />
-                        Get A Quote
+                        Contact Us
                       </Link>
                     </li>
                   </ul>
@@ -149,7 +145,7 @@ const FooterTwo = () => {
                         target='_blank'
                         rel='noreferrer'
                       >
-                        55 Main Street, 2nd block Malborne, Australia
+                        123 Charity Lane, Colombo 07, Sri Lanka
                       </a>
                     </p>
                   </div>
@@ -161,11 +157,11 @@ const FooterTwo = () => {
                   <div className='content'>
                     <p>
                       <a href='mailto:support@example.com'>
-                        support@example.com
+                        info@littlelifefoundation.org
                       </a>
                     </p>
                     <p>
-                      <a href='tel:2305-587-3407'>+2(305) 587-3407</a>
+                      <a href='tel:2305-587-3407'>+94 70 533 2446</a>
                     </p>
                   </div>
                 </div>
@@ -182,8 +178,9 @@ const FooterTwo = () => {
                         <div className='footer__copyright-logo text-center text-xl-start'>
                           <Link href='/'>
                             <img
-                              src='assets/images/logo-light.png'
+                              src='assets/images/Little life - LOGO Final.png'
                               alt='Image_inner'
+                              style={{ width: '80px', height: 'auto' }}
                             />
                           </Link>
                         </div>
@@ -193,7 +190,7 @@ const FooterTwo = () => {
                           <p>
                             Copyright © <span id='copyrightYear' />{" "}
                             <Link href='/' target='_blank'>
-                              Charifund
+                              LittleLife
                             </Link>
                             . All rights reserved.
                           </p>
