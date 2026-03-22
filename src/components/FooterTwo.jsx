@@ -165,6 +165,49 @@ const FooterTwo = () => {
                     </p>
                   </div>
                 </div>
+                <div className='footer__list-group'>
+                  <div className='footer__list-intro'>
+                    <h5 className='title-animation_inner'>Social</h5>
+                  </div>
+                  <div className='social'>
+                    <a
+                      href='https://www.facebook.com/'
+                      target='_blank'
+                      aria-label='share us on facebook'
+                      title='facebook'
+                      rel='noreferrer'
+                    >
+                      <i className='fa-brands fa-facebook-f' />
+                    </a>
+                    <a
+                      href='https://vimeo.com/'
+                      target='_blank'
+                      aria-label='share us on vimeo'
+                      title='vimeo'
+                      rel='noreferrer'
+                    >
+                      <i className='fa-brands fa-vimeo-v' />
+                    </a>
+                    <a
+                      href='https://x.com/'
+                      target='_blank'
+                      aria-label='share us on twitter'
+                      title='twitter'
+                      rel='noreferrer'
+                    >
+                      <i className='fa-brands fa-twitter' />
+                    </a>
+                    <a
+                      href='https://www.linkedin.com/'
+                      target='_blank'
+                      aria-label='share us on linkedin'
+                      title='linkedin'
+                      rel='noreferrer'
+                    >
+                      <i className='fa-brands fa-linkedin-in' />
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

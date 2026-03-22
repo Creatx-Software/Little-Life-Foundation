@@ -1,10 +1,11 @@
 import BreadcrumbOne from "@/components/BreadcrumbOne";
-import DifferenceTwo from "@/components/DifferenceTwo";
 import FooterTwo from "@/components/FooterTwo";
 import HeaderTwo from "@/components/HeaderTwo";
 import Preloader from "@/components/Preloader";
+import TeamInner from "@/components/TeamInner";
 import AOSWrap from "@/helper/AOSWrap";
 import CustomCursor from "@/helper/CustomCursor";
+import Register from "@/components/RegisterVolunteer";
 
 export const metadata = {
   title: "Little Life Foundation"
@@ -24,10 +25,13 @@ const page = () => {
         <HeaderTwo />
 
         {/* BreadcrumbOne */}
-        <BreadcrumbOne title='About Us' />
+        <BreadcrumbOne title='Become a Volunteer' />
 
-        {/* DifferenceTwo */}
-        <DifferenceTwo />
+        {/* RegisterVolunteer */}
+        <Register />
+
+        {/* TeamInner */}
+        <TeamInner />
 
         {/* FooterTwo */}
         <FooterTwo />

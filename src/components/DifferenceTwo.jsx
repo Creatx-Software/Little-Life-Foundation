@@ -28,14 +28,6 @@ const DifferenceTwo = () => {
                         className='base-img'
                       />
                     </div>
-                    <div className='video-btn-wrapper'>
-                      <button
-                        onClick={() => setIsOpen(true)}
-                        className='open-video-popup'
-                      >
-                        <i className='icon-play' />
-                      </button>
-                    </div>
                   </div>
                   <div
                     className='thumb-sm'

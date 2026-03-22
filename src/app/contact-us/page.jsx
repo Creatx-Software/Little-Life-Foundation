@@ -1,5 +1,5 @@
 import BreadcrumbOne from "@/components/BreadcrumbOne";
-import DifferenceTwo from "@/components/DifferenceTwo";
+import ContactUsInner from "@/components/ContactUsInner";
 import FooterTwo from "@/components/FooterTwo";
 import HeaderTwo from "@/components/HeaderTwo";
 import Preloader from "@/components/Preloader";
@@ -24,10 +24,10 @@ const page = () => {
         <HeaderTwo />
 
         {/* BreadcrumbOne */}
-        <BreadcrumbOne title='About Us' />
+        <BreadcrumbOne title='Contact Us' />
 
-        {/* DifferenceTwo */}
-        <DifferenceTwo />
+        {/* ContactUsInner */}
+        <ContactUsInner />
 
         {/* FooterTwo */}
         <FooterTwo />

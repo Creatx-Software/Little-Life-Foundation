@@ -8,8 +8,12 @@ import InitializeAOS from "@/helper/InitializeAOS";
 import RouteScrollToTop from "@/helper/RouteScrollToTop";
 
 export const metadata = {
-  title: "Charifund | Nonprofit & Fundraising Charity NEXT JS Template",
-  description: "Nonprofit & Fundraising Charity NEXT JS Template.",
+  title: "Little Life Foundation",
+  icons: {
+    icon: "/assets/images/Little life - LOGO Final.png",
+    shortcut: "/assets/images/Little life - LOGO Final.png",
+    apple: "/assets/images/Little life - LOGO Final.png",
+  },
 };
 
 export default function RootLayout({ children }) {

@@ -6,8 +6,10 @@ const HeaderTwo = () => {
   let pathname = usePathname();
   let [search, setSearch] = useState(false);
   let [mobileMenu, setMobileMenu] = useState(false);
-  const [activeNavItem, setActiveNavItem] = useState("home");
   const [scroll, setScroll] = useState(false);
+
+  const isActive = (routes) => routes.some((route) => pathname === route || pathname.startsWith(`${route}/`));
+
   const handleSearch = () => {
     setSearch(!search);
   };
@@ -89,12 +91,6 @@ const HeaderTwo = () => {
     }
   }, []);
 
-  useEffect(() => {
-    if (pathname === "/" || pathname === "/index-two") {
-      setActiveNavItem("home");
-    }
-  }, [pathname]);
-
   return (
     <>
       <header
@@ -120,23 +116,23 @@ const HeaderTwo = () => {
 
                   <div className='navbar__menu d-none d-xl-block'>
                     <ul className='navbar__list'>
-                      <li className={`navbar__item nav-fade ${activeNavItem === "home" ? "active" : ""}`}>
-                        <Link href='/' onClick={() => setActiveNavItem("home")}>Home</Link>
+                      <li className={`navbar__item nav-fade ${isActive(["/", "/index-two"]) ? "active" : ""}`}>
+                        <Link href='/'>Home</Link>
                       </li>
-                      <li className={`navbar__item nav-fade ${activeNavItem === "about" ? "active" : ""}`}>
-                        <Link href='/about-us' onClick={() => setActiveNavItem("about")}>About Us</Link>
+                      <li className={`navbar__item nav-fade ${isActive(["/about-us"]) ? "active" : ""}`}>
+                        <Link href='/about-us'>About Us</Link>
                       </li>
-                      <li className={`navbar__item nav-fade ${activeNavItem === "programs" ? "active" : ""}`}>
-                        <Link href='/index-two' onClick={() => setActiveNavItem("programs")}>Programs</Link>
+                      <li className={`navbar__item nav-fade ${isActive(["/programs"]) ? "active" : ""}`}>
+                        <Link href='/programs'>Programs</Link>
                       </li>
-                      <li className={`navbar__item nav-fade ${activeNavItem === "events" ? "active" : ""}`}>
-                        <Link href='/index-two' onClick={() => setActiveNavItem("events")}>Events</Link>
+                      <li className={`navbar__item nav-fade ${isActive(["/events"]) ? "active" : ""}`}>
+                        <Link href='/events'>Events</Link>
                       </li>
-                      <li className={`navbar__item nav-fade ${activeNavItem === "volunteers" ? "active" : ""}`}>
-                        <Link href='/our-team' onClick={() => setActiveNavItem("volunteers")}>Volunteers</Link>
+                      <li className={`navbar__item nav-fade ${isActive(["/volunteer"]) ? "active" : ""}`}>
+                        <Link href='/volunteer'>Volunteers</Link>
                       </li>
-                      <li className={`navbar__item nav-fade ${activeNavItem === "contact" ? "active" : ""}`}>
-                        <Link href='/index-two' onClick={() => setActiveNavItem("contact")}>Contact Us</Link>
+                      <li className={`navbar__item nav-fade ${isActive(["/contact-us"]) ? "active" : ""}`}>
+                        <Link href='/contact-us'>Contact Us</Link>
                       </li>
                     </ul>
                   </div>
@@ -196,7 +192,7 @@ const HeaderTwo = () => {
           <div className='mobile-menu__header nav-fade'>
             <div className='logo'>
               <Link href='/' aria-label='home page' title='logo'>
-                <img src='assets/images/logo.png' alt='Image_inner' />
+                <img src='assets/images/Little life - LOGO Final.png' alt='Image_inner' />
               </Link>
             </div>
             <button

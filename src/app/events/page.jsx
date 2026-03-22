@@ -1,5 +1,5 @@
 import BreadcrumbOne from "@/components/BreadcrumbOne";
-import DifferenceTwo from "@/components/DifferenceTwo";
+import EventInner from "@/components/EventInner";
 import FooterTwo from "@/components/FooterTwo";
 import HeaderTwo from "@/components/HeaderTwo";
 import Preloader from "@/components/Preloader";
@@ -24,10 +24,10 @@ const page = () => {
         <HeaderTwo />
 
         {/* BreadcrumbOne */}
-        <BreadcrumbOne title='About Us' />
+        <BreadcrumbOne title='Upcoming Events' />
 
-        {/* DifferenceTwo */}
-        <DifferenceTwo />
+        {/* EventInner */}
+        <EventInner />
 
         {/* FooterTwo */}
         <FooterTwo />

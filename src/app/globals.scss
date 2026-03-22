@@ -1,1 +1,38 @@
 @import "/public/assets/scss/main.scss";
+
+.volunteer-register .section__content p {
+	color: #e6f3f0;
+	font-weight: 500;
+}
+
+.volunteer-register .contact__form .input-single {
+	background: #ffffff;
+	border: 1px solid #bcd8d2;
+	align-items: flex-start;
+	flex-direction: column;
+	gap: 8px;
+	padding: 12px 14px;
+}
+
+.volunteer-register .contact__form .input-single label {
+	color: #123a33;
+	font-weight: 700;
+	margin: 0;
+}
+
+.volunteer-register .contact__form .input-single input,
+.volunteer-register .contact__form .input-single textarea {
+	background: #ffffff;
+	color: #1b2b28;
+	padding: 0;
+	width: 100%;
+}
+
+.volunteer-register .contact__form .input-single input::placeholder,
+.volunteer-register .contact__form .input-single textarea::placeholder {
+	color: #607d76;
+}
+
+.volunteer-register .contact__form .alter-input textarea {
+	min-height: 130px;
+}
