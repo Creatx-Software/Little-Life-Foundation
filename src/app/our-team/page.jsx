@@ -1,15 +1,13 @@
 import BreadcrumbOne from "@/components/BreadcrumbOne";
-import FooterOne from "@/components/FooterOne";
-import HeaderOne from "@/components/HeaderOne";
+import FooterTwo from "@/components/FooterTwo";
+import HeaderTwo from "@/components/HeaderTwo";
 import Preloader from "@/components/Preloader";
 import TeamInner from "@/components/TeamInner";
-import TopBarOne from "@/components/TopBarOne";
 import AOSWrap from "@/helper/AOSWrap";
 import CustomCursor from "@/helper/CustomCursor";
 
 export const metadata = {
-  title: "Charifund | Nonprofit & Fundraising Charity NEXT JS Template",
-  description: "Nonprofit & Fundraising Charity NEXT JS Template.",
+  title: "Little Life Foundation",
 };
 
 const page = () => {
@@ -22,11 +20,8 @@ const page = () => {
         {/* CustomCursor  */}
         <CustomCursor />
 
-        {/* TopBarOne */}
-        <TopBarOne />
-
-        {/* HeaderOne */}
-        <HeaderOne />
+        {/* HeaderTwo */}
+        <HeaderTwo />
 
         {/* BreadcrumbOne */}
         <BreadcrumbOne title='Our Team' />
@@ -34,8 +29,8 @@ const page = () => {
         {/* TeamInner */}
         <TeamInner />
 
-        {/* FooterOne */}
-        <FooterOne />
+        {/* FooterTwo */}
+        <FooterTwo />
       </section>
     </AOSWrap>
   );
