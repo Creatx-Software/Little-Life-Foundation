@@ -33,6 +33,14 @@ jobs:
 
       - name: Deploy to server
         run: |
-          rsync -rlgoDzvc --delete \
+          rsync -rlzvc --delete \
             -e "ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no" \
             out/ ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }}:/var/www/vhosts/littlelifefoundation.org/httpdocs/
+
+      - name: Fix permissions on server
+        run: |
+          ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no \
+            ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }} \
+            "chown -R littlelifefoundation._vm855l9ksb:psacln /var/www/vhosts/littlelifefoundation.org/httpdocs/ && \
+             chown littlelifefoundation._vm855l9ksb:psaserv /var/www/vhosts/littlelifefoundation.org/httpdocs/ && \
+             chmod 750 /var/www/vhosts/littlelifefoundation.org/httpdocs/"
