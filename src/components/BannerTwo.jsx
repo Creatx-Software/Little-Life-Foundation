@@ -38,7 +38,7 @@ const BannerTwo = () => {
                     </p>
                     <div className='banner__content-cta cta'>
                       <Link
-                        href='/index-two'
+                        href='/home'
                         aria-label='about us'
                         title='about us'
                         className='btn--tertiary'
@@ -46,7 +46,7 @@ const BannerTwo = () => {
                         Become A Volunteer <i className='fa-solid fa-arrow-right' />
                       </Link>
                       <Link
-                        href='/index-two'
+                        href='/home'
                         aria-label='contact us'
                         title='contact us'
                         className='btn--primary'
@@ -74,7 +74,7 @@ const BannerTwo = () => {
                     </p>
                     <div className='banner__content-cta cta'>
                       <Link
-                        href='/index-two'
+                        href='/home'
                         aria-label='about us'
                         title='about us'
                         className='btn--tertiary'
@@ -82,7 +82,7 @@ const BannerTwo = () => {
                         Discover More <i className='fa-solid fa-arrow-right' />
                       </Link>
                       <Link
-                        href='/index-two'
+                        href='/home'
                         aria-label='contact us'
                         title='contact us'
                         className='btn--primary'
@@ -107,7 +107,7 @@ const BannerTwo = () => {
                     </p>
                     <div className='banner__content-cta cta'>
                       <Link
-                        href='/index-two'
+                        href='/home'
                         aria-label='about us'
                         title='about us'
                         className='btn--tertiary'
@@ -115,7 +115,7 @@ const BannerTwo = () => {
                         Become A Volunteer <i className='fa-solid fa-arrow-right' />
                       </Link>
                       <Link
-                        href='/index-two'
+                        href='/home'
                         aria-label='contact us'
                         title='contact us'
                         className='btn--primary'

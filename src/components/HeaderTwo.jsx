@@ -105,7 +105,7 @@ const HeaderTwo = () => {
               <div className='main-header__menu-box'>
                 <nav className='navbar p-0'>
                   <div className='navbar-logo'>
-                    <Link href='/'>
+                    <Link href='/home'>
                       <img
                         src='/assets/images/Little life - LOGO Final.png'
                         alt='Image_inner'
@@ -116,8 +116,8 @@ const HeaderTwo = () => {
 
                   <div className='navbar__menu d-none d-xl-block'>
                     <ul className='navbar__list'>
-                      <li className={`navbar__item nav-fade ${isActive(["/", "/index-two"]) ? "active" : ""}`}>
-                        <Link href='/'>Home</Link>
+                      <li className={`navbar__item nav-fade ${isActive(["/home"]) ? "active" : ""}`}>
+                        <Link href='/home'>Home</Link>
                       </li>
                       <li className={`navbar__item nav-fade ${isActive(["/about-us"]) ? "active" : ""}`}>
                         <Link href='/about-us'>About Us</Link>
@@ -159,7 +159,7 @@ const HeaderTwo = () => {
                         </button>
                       </div>
                       <Link
-                        href='/index-two'
+                        href='/home'
                         className='btn--primary d-none d-md-flex'
                       >
                         Donate Now <i className='icon-circle-arrow' />
@@ -206,7 +206,7 @@ const HeaderTwo = () => {
           <div className='mobile-menu__list' ref={mobileMenuListRef}></div>
 
           <div className='mobile-menu__cta nav-fade d-block d-md-none'>
-            <Link href='/index-two' className='btn--primary '>
+            <Link href='/home' className='btn--primary '>
               Donate Now <i className='fa-solid fa-arrow-right' />
             </Link>
           </div>
